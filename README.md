@@ -1,37 +1,63 @@
-# A sample Python project
+# Gene Fusion classification(TBD)
 
-A sample project that exists as an aid to the [Python Packaging User
-Guide][packaging guide]'s [Tutorial on Packaging and Distributing
-Projects][distribution tutorial].
+A machine learning pipeline extracting "Gene fusion" in text corpus.
 
-This project does not aim to cover best practices for Python project
-development as a whole. For example, it does not provide guidance or tool
-recommendations for version control, documentation, or testing.
+## Getting Started
 
-[The source for this project is available here][src].
+Introduction ... 
 
-Most of the configuration for a Python project is done in the `setup.py` file,
-an example of which is included in this project. You should edit this file
-accordingly to adapt this sample project to your needs.
+### Prerequisites
 
-----
+Run :
+```
+pip install -r requirements.txt
+```
 
-This is the README file for the project.
+- Needs datasets in `data` folder
+- Needs word embeddings in `word_embeddings` folder
 
-The file should use UTF-8 encoding and can be written using
-[reStructuredText][rst] or [markdown][md use] with the appropriate [key set][md
-use]. It will be used to generate the project webpage on PyPI and will be
-displayed as the project homepage on common code-hosting services, and should be
-written for that purpose.
+### Installing
 
-Typical contents for this file would include an overview of the project, basic
-usage examples, etc. Generally, including the project changelog in here is not a
-good idea, although a simple “What's New” section for the most recent version
-may be appropriate.
+A step by step series of examples that tell you have to get a development env running
 
-[packaging guide]: https://packaging.python.org
-[distribution tutorial]: https://packaging.python.org/en/latest/distributing.html
-[src]: https://github.com/pypa/sampleproject
-[rst]: http://docutils.sourceforge.net/rst.html
-[md]: https://tools.ietf.org/html/rfc7764#section-3.5 "CommonMark variant"
-[md use]: https://packaging.python.org/specifications/core-metadata/#description-content-type-optional
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+
+## Built With
+
+* [Scikit-Learn...](http://sklearn) - Building machine learning model..
+* [PyTorch](http://pytorch) - Building machine learning model..
+* [Tensorflow](http://Tensorflow) - Building machine learning model..
+
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Sunkyu Kim** - *co-first author ... *
+* **Daehan Kim** - *co-first author ... * 
+* **Keonwoo Kim** - *co-author ... * 
+* **Jaewoo Kang** - *corresponding author ... * 
+
+## References
+
+* Reference papers..[REF](https://reference_paper_page).
+* ChimerDB 3.0..[REF](https://reference_paper_page).
